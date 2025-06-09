@@ -48,7 +48,7 @@ app.use((error, req, res, next) => {
 });
 mongoose
   .connect(
-    "mongodb+srv://Pankaj_Singla:Pankaj%40123@cluster0.2jbfxmp.mongodb.net/mern?retryWrites=true&w=majority&appName=Cluster0"
+    "mongodb+srv://<dataneededforthemongodb>@cluster0.2jbfxmp.mongodb.net/mern?retryWrites=true&w=majority&appName=Cluster0"
   )
   .then(() => {
     app.listen(5000);
